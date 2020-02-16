@@ -6,8 +6,6 @@ package com.tl.builder;
  */
 public abstract class Builder {
 
-
-
     abstract void buildA();
 
     abstract void buildB();

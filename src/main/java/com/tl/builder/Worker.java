@@ -8,7 +8,6 @@ public class Worker extends Builder {
 
     private Product product;
 
-
     public Worker() {
         product=new Product();
     }
