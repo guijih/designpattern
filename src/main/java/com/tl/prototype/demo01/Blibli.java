@@ -13,8 +13,7 @@ public class Blibli {
         Date date = new Date();
         Video v1 = new Video("狂神说java", date);
         Video v2=(Video) v1.clone();
-        System.out.println(v1);
-        System.out.println(v1.hashCode());
+
 
 
         System.out.println("=============");
@@ -22,6 +21,8 @@ public class Blibli {
 
         // 克隆对象
 
+        System.out.println(v1);
+        System.out.println(v1.hashCode());
         System.out.println(v2);
         System.out.println(v2.hashCode());
     }

@@ -12,8 +12,7 @@ public class Blibli {
         // 原型对象 v1
         Date date = new Date();
         Video2 v1 = new Video2("狂神说java", date);
-        System.out.println(v1);
-        System.out.println(v1.hashCode());
+
 
 
         // 克隆对象
@@ -21,6 +20,8 @@ public class Blibli {
 
         date.setTime(22131231);
 
+        System.out.println(v1);
+        System.out.println(v1.hashCode());
         System.out.println(v2);
         System.out.println(v2.hashCode());
     }
