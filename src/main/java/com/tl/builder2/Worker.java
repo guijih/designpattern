@@ -15,7 +15,7 @@ public class Worker extends Builder{
 
     @Override
     Builder buildB(String msg){
-        product.setBuildA(msg);
+        product.setBuildB(msg);
         return this;
     }
 
