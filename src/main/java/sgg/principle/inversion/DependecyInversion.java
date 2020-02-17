@@ -1,5 +1,8 @@
 package sgg.principle.inversion;
 
+/**
+ * @author Administrator
+ */
 public class DependecyInversion {
     public static void main(String[] args) {
         Email email = new Email();
