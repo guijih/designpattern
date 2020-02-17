@@ -55,6 +55,9 @@ class CollageManager {
 
 }
 
+/**类的直接朋友  CollageManager  Employee
+ *ColleyEmployee 不是直接朋友 而是一个陌生类 这样违背了迪米特法则
+ */
 class SchoolManager {
     public List<Employee> getAllEmployee() {
         List<Employee> list = new ArrayList<>();
