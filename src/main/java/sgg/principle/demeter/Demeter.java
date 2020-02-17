@@ -70,6 +70,8 @@ class SchoolManager {
     }
 
     public void print(CollageManager sub) {
+        // 不是直接朋友 以局部变量的方式出现在SchoolManager
+        // 违背了迪米特法则
         List<ColleyEmployee> allEmployee = sub.getAllEmployee();
         System.out.println("学院");
         for (ColleyEmployee colleyEmployee : allEmployee) {
