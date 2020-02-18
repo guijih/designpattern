@@ -1,4 +1,4 @@
-package com.tl.designpettern.lazysingleton;
+package com.tl.singleinstance.lazysingleton;
 
 /**
  * @author wangwei

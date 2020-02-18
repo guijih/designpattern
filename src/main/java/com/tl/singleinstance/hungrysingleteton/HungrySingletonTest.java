@@ -1,4 +1,4 @@
-package com.tl.hungrysingleteton;
+package com.tl.singleinstance.hungrysingleteton;
 /**@Description  饿加载
  * @ClassName HungrySingletonTest
  * @author wangwei
