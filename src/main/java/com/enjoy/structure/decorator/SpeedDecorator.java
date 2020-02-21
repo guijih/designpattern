@@ -1,7 +1,11 @@
 package com.enjoy.structure.decorator;
 
 import com.enjoy.entity.Bag;
-
+/**@Description SpeedDecorator继承了 BagDecorator
+ * @ClassName SpeedDecorator
+ * @author wangwei
+ * @date 2020/2/21 0021 13:25
+ */
 public class SpeedDecorator extends BagDecorator {
     public SpeedDecorator(Bag bag) {
         super(bag);

@@ -1,7 +1,11 @@
 package com.enjoy.structure.decorator;
 
 import com.enjoy.entity.Bag;
-
+/**@Description 加固包装
+ * @ClassName ReinforceBagDecorator
+ * @author wangwei
+ * @date 2020/2/21 0021 13:26
+ */
 public class ReinforceBagDecorator extends BagDecorator {
     public ReinforceBagDecorator(Bag bag) {
         super(bag);
