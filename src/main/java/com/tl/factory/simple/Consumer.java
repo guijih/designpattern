@@ -11,7 +11,8 @@ package com.tl.factory.simple;
 public class Consumer {
     public static void main(String[] args) {
 
-        CarFactory.getCar("五菱").name();
+        Car WuLing = CarFactory.getCar("五菱");
+        WuLing.name();
 
         CarFactory.getCar("特斯拉").name();
 

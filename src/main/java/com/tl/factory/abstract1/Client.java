@@ -1,5 +1,10 @@
 package com.tl.factory.abstract1;
-
+/**@Description 抽象工厂模式
+ *
+ * @ClassName Client
+ * @author wangwei
+ * @date 2020/3/1 0001 0:11
+ */
 public class Client  {
     public static void main(String[] args) {
         System.out.println("===========小米产品===========");

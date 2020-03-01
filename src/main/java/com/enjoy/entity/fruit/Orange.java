@@ -31,6 +31,7 @@ public class Orange implements Fruit {
         System.out.print("砂糖桔");
     }
 
+    @Override
     public int accept(Visit visit){
         return visit.sell(this);
     }
